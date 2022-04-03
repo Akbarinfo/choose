@@ -11,25 +11,44 @@
 
 <body>
 
-  <!-- HEADER PART -->
-
-  <header class="">
-    <section class="">
-
-    </section>
-  </header>
-
   <!-- MAIN PART  -->
 
   <main>
+     <section class="choose">
+    <div class="container">
+      <div class="choose__main">
+        <div class="choose__boxs">
+          <div class="choose__lbox">
+            <input class="choose__input" type="checkbox" name="choose title" id="checkbox1" checked>
+            <label class="choose__label" for="checkbox1">
+              <span class="choose__span" id="span1" style="background-color: #2e72a8; color: white;">1</span>
+              <p class="choose__name" id="name1" style="color: black;">Choose title</p>
+            </label>
+            <input class="choose__input" type="checkbox" name="choose descirption" id="checkbox2">
+            <label class="choose__label" for="checkbox2">
+              <span class="choose__span" id="span2">2</span>
+              <p class="choose__name" id="name2">Choose descirption</p>
+            </label>
+            <input class="choose__input" type="checkbox" name="choose date" id="checkbox3">
+            <label class="choose__label" for="checkbox3">
+              <span class="choose__span" id="span3">3</span>
+              <p class="choose__name" id="name3">Confirm data</p>
+            </label>
+          </div>
+          <div class="change__rbox">
+            <p class="choose__text" id="text">Choose title content</p>
+            <div class="choose__flex">
+              <button class="choose__btn" style="display: none;" type="button" id="btn1">Back</button>
+              <button class="choose__btn" type="button" id="btn2">Submit title</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   </main>
 
-  <!-- FOOTER PART  -->
-
-  <footer class="footer">
-
-  </footer>
 
   <script src="js/main.js"></script>
 </body>
